@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The Fightin' Texas Aggie Singing Cadets</title>
+		<style type="text/css">
+			
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+	#nav{
+		list-style:none;
+		font-weight:bold;
+		margin-bottom:10px;
+		/* Clear floats */
+		float:left;
+		width:100%;
+		/* Bring the nav above everything else--uncomment if needed.
+		position:relative;
+		z-index:5;
+		*/
+		}
+	#nav li{
+		float:left;
+		margin-right:0px;
+		position:relative;
+		}
+	#nav a{
+		display:block;
+		padding:10px;
+		color:white;
+		background:#333;
+		text-decoration:none;
+		}
+	#nav a:hover{
+		color:white;
+		background:white;
+		text-decoration:underline;
+		}
+
+/*--- DROPDOWN ---*/
+	#nav ul{
+		background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+		background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+		list-style:none;
+		position:absolute;
+		left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+		}
+	#nav ul li{
+		padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+		float:none;
+		}
+	#nav ul a{
+		white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+		}
+	#nav li:hover ul{ /* Display the dropdown on hover */
+		left:0; /* Bring back on-screen when needed */
+		}
+	#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+		background:black; /*Hover Color*/
+		text-decoration:underline;
+		}
+	#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+		text-decoration:none;
+		}
+	#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+		background:#333;
+		}
+
+		</style>
+	</head>
+ 	<body bgcolor="#000033" text="#ddddff" link = "#ddddff" alink = "#ddddff" vlink = "#ddddff">
+		<div style="width:910px;margin-left:80px;margin-right:80px;margin-bottom:70px">
+			<div style="height:220px" align="center">
+				<img src="Top.jpg" alt="Singing Cadets" />
+			</div>
+			<nav>
+				<ul id="nav">
+					<li><a style = "text-decoration: none" href="home.html">Home</a></li>
+					<li><a style = "text-decoration: none" href="auditions.html">Auditions</a></li>
+					<li><a style = "text-decoration: none" href="#">Calendar</a>
+						<ul>
+							<li><a style = "text-decoration: none" href="performances_fall.html">Fall 2011 Semester</a></li>
+							<li><a style = "text-decoration: none" href="performances_winter.html">Winter Tour 2012</a></li>
+							<li><a style = "text-decoration: none" href="performances_springTours.html">Spring Tours 2012</a></li>
+							<li><a style = "text-decoration: none" href="performances_spring.html">Spring 2012 Semester</a></li>
+						</ul>
+					</li>
+					<li><a style = "text-decoration: none" href="#">Recordings</a>
+						<ul>
+							<li><a style = "text-decoration: none" href="recordings_order.html">CD Order Form</a></li>
+							<li><a style = "text-decoration: none" href="recordings_kennedyCenter.html">Kennedy Center</a></li>
+							<li><a style = "text-decoration: none" href="recordings_letFreedomRing.html">Let Freedom Ring</a></li>
+							<li><a style = "text-decoration: none" href="recordings_remembrance.html">Remembrance</a></li>
+							<li><a style = "text-decoration: none" href="recordings_dutyHonorCountry.html">Duty, Honor, Country</a></li>
+							<li><a style = "text-decoration: none" href="recordings_tradition.html">Tradition</a></li>
+							<li><a style = "text-decoration: none" href="recordings_southAmerica.html">South America</a></li>
+							<li><a style = "text-decoration: none" href="recordings_godBlessUSA.html">God Bless the USA</a></li>
+							<li><a style = "text-decoration: none" href="recordings_america.html">America</a></li>
+							<li><a style = "text-decoration: none" href="recordings_southAfrica.html">South Africa</a></li>
+							<li><a style = "text-decoration: none" href="recordings_1011Tour.html">2010-2011 Tour</a></li>
+						</ul>
+					</li>
+					<li><a style = "text-decoration: none" href="#">People</a>
+						<ul>
+							<li><a style = "text-decoration: none" href="people_director.html">From the Director</a></li>
+							<li><a style = "text-decoration: none" href="people_accompanist.html">Our Accompanist</a></li>
+							<li><a style = "text-decoration: none" href="people_roster.html">2011-2012 Roster</a></li>
+							<li><a style = "text-decoration: none" href="people_aggienizors.html">Aggienizors</a></li>
+						</ul>
+					</li>
+					<li><a style = "text-decoration: none" href="#">AFSC</a>
+						<ul>
+							<li><a style = "text-decoration: none" href="afsc_overview.html">AFSC Overview</a></li>
+							<li><a style = "text-decoration: none" href="afsc_reunion.html">Annual Reunion</a></li>
+							<li><a style = "text-decoration: none" href="afsc_aggienizors.html">Former Aggienizors</a></li>
+						</ul>
+					</li>
+					<li><a style = "text-decoration: none" href="#">History</a>
+						<ul>
+							<li><a style = "text-decoration: none" href="history_overview.html">Overview</a></li>
+							<li><a style = "text-decoration: none" href="history_earlyYears.html">Early Years</a></li>
+							<li><a style = "text-decoration: none" href="history_formativeYears.html">Formative Years</a></li>
+							<li><a style = "text-decoration: none" href="history_recentYears.html">Recent Years</a></li>
+						</ul>
+					</li>
+					<li><a style = "text-decoration: none" href="faq.html">FAQ</a></li>
+					<li><a style = "text-decoration: none" href="contact.html">Contact Us</a></li>
+					<li><a style = "text-decoration: none" href="javascript:GetPassword()">Members</a></li>
+				</ul>
+			</nav>
+
+		<div id="content">
+				<hr>
+				<h1> Dicatur Musice </h1>
+				<p>Internationally known as the "Voice of Aggieland", The Singing Cadets is Texas A&M University's premier men's chorus. Now in our 108th touring season, we will be performing 60-70 concerts this year throughout Texas and the United States.
+				<p>The purpose of the Singing Cadets shall be to enhance the public relations of Texas A&M University through musical presentations as deemed appropriate by the director. The four pillars of the Singing Cadets are Purpose, Unity, Spirit, and Honor. Together, these four pillars have formed the solid foundation that has inspired and enabled our organization to succeed in carrying out its purpose for over a century. 
+				<p>We are auditioning new members for the Fall semester during every New Student Conference and the first two weeks of classes. Please <a href="http://singingcadets.com/contact.html">contact us</a> for more information or to schedule an appointment.
+				<p><img src="SouthAfrica1.jpg" alt="South Africa" />
+				<p>We recently went on a 12 day tour of South Africa! Check out all the pictures on our <a href="http://www.facebook.com/pages/Texas-AM-University-Singing-Cadets/14969182631?ref=search&sid=729346123.2292854802..1"> Facebook. </a>
+				<p><a href="http://www.facebook.com/pages/Texas-AM-University-Singing-Cadets/14969182631?ref=search&sid=729346123.2292854802..1"> Become a fan of the Singing Cadets on Facebook. </a>
+			</div>
+			<div>
+				<hr>
+				Comments and issues about the website should be emailed to Austin Butts at <a href="mailto:metroidman192@neo.tamu.edu">metroidman192@neo.tamu.edu</a>
+			</div>
+		</div>	
+	</body>
+</html>
